@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    background-color: #E8F0FF;
+}
+    p, div, form {
+        font-weight: normal;
+        font-family: "Funnel Sans", sans-serif;
+    }
+ h1, h2, h3, h4, h5{
+    font-family: "Funnel Display", serif;
+
+    
+}
+
+#entriesarchive {  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 10px; /* Space between items */
+    font-size: small;
+}
+
+#entriesarchive img {
+    width: 100%; /* Ensure images fill their grid cells */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#paginationControls {
+text-align: center;
+}
+#paginationInfo {
+text-align: center;
+}
+
+body {
+    margin-top: 65px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+
+#todayentry img {
+max-width: 100%;
+max-height: 900px;
+
+}
+button {
+    position:relative;
+font-weight: bold;
+border: none;
+background: none;
+}
+
+button:hover {
+    border: none;
+    background: none;
+    cursor:pointer;
+    }
+   
+
+    .archivetext {
+        line-height: 10px;
+
+        margin-bottom: 100px;
+    }
+    footer {
+        margin-top: 50px;
+        text-align: right;
+        img {
+            padding: 5px;
+            padding-top: 0px;
+            max-height: 32px;
+            margin-bottom: -15px;
+            
+        }
+    }
+
+    #admin {
+        text-align: left;
+    }
+
+    #aboutsection {
+        max-width: 500px;
+    }

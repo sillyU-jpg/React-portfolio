@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  
+    <title>add entry - ImageDaily</title>
+</head>
+<body data-page="post">
+
+<h1>post entry:</h1>
+
+<a href="index.html"><button type="button">home >> </button></a>
+<a href="archive.html"><button type="button">Archive >> </button></a>
+
+<form class="addEntry">
+    <label for="entrytext">Entry text:</label>
+    <input type="text" name="text" required>
+    <label for="date">Image date (approx)</label>
+    <input type="date" name="imageDate" required>
+    <label for="image">upload an image:</label>
+   <input type="file" name="image" id="image-file" accept="image/png, image/jpg, image/JPG" required>
+    <button type="submit">upload entry!</button>
+</form>
+
+<form class="delete">
+ <label for="id">document id:</label>
+ <input type="text" name="id" required>
+ <button>Delete entry!</button>
+</form>
+
+
+<button class="logout">logout</button>
+</body>
+<footer>  
+    <div>   
+     
+      <a href="about.html"><img src="../public/brand/nklogo.png" alt="logo image"></a>  
+      <a href="https://github.com/sillyU-jpg"><img src="../public/brand/github.svg" alt="github image"></a>
+      <a href="https://www.linkedin.com/in/nikolai-king-4896a0321/"><img src="../public/brand/linkdin.png" alt="linkdin image"></a>
+        </div>
+        <p>Nikolai King &copy; 2025</p> 
+        <script src="bundle.js"></script>
+     </footer>
+</html>
