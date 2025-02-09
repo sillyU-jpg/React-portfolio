@@ -1,12 +1,11 @@
 const About = () => {
     return (
         <div className="about-section">
-        <img src="./project/selfie.jpeg" className="selfie-img"/>
+        <img src="./project/selfie.png" className="selfie-img"/>
         <div id="about-text">
           <h1 className="about-title"> About Me </h1>
-          <h2 className="about-desc">Designer, Developer, Web-Developer,
-            Learning new technology every day, I hope you check out some of my work located on my projects
-            page. 
+          <h2 className="about-desc"> Web-Developer, Game Developer, and Software designer,
+            Learning new technology every day, check out some of my work located on my projects page.
           </h2>
           <div className="contact-section">
              <h2>Work/Enquiries: </h2> 

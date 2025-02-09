@@ -200,12 +200,13 @@ margin: 1%;
 
 }
 .links-section {
-margin-top: 10%;
+margin-top: 5%;
 }
 .selfie-img {
   float: left;
-  margin-left: 12%;
-  height: 800px;
+  margin-top: 10%;
+  margin-left: 10%;
+  height: 450px;
 }
 
 
@@ -215,7 +216,7 @@ margin-top: 10%;
   font-weight: bolder;
     font-size: x-small;
   max-width: 30%;
-  margin-top: 50px;
+  margin-top: 12%;
     margin-right: 15%;
   }
 
@@ -266,7 +267,7 @@ margin-top: 10%;
             .selfie-img {
               margin-top: 25px;
               float: center;
-             max-height: 500px;
+             max-height: 350px;
             }
  
 }
