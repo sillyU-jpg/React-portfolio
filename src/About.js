@@ -1,7 +1,7 @@
 const About = () => {
     return (
         <div className="about-section">
-        <img src="./project/selfie.png" className="selfie-img"/>
+        <img src="./project/selfie.png" className="selfie-img" alt="portrait"/>
         <div id="about-text">
           <h1 className="about-title"> About Me </h1>
           <h2 className="about-desc"> Web-Developer, Game Developer, and Software designer,

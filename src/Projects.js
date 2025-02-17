@@ -1,11 +1,11 @@
-import { useEffect, useRef, useState } from "react";
+import {useRef, useState } from "react";
 
 const Projects = () => {
   const containerRef = useRef(null); // UseRef to get the container div
-  const [projectsArr, setProjects] = useState([
+  const [projectsArr] = useState([
     {
       title: "ImageDaily",
-      description: "my daily image blog with an emphasis on the image. Implemented using firebase and firestore",
+      description: "My daily image blog, showcasing a new image from my camera roll each day, built with vanilla HTML, CSS, and JavaScript, with the backend hosted on Firebase Storage.",
       image: './project/imgdaily.png',
       link: "/imagedaily"
     },
@@ -46,7 +46,6 @@ const Projects = () => {
       <div className="projects-section">
         <div id="title-text">
           <h1 className="page-title"> Projects </h1>
-          <h2 className="page-Desc">There is a list of all of my projects, through university, as well as my personal projects</h2>
         </div>
         <div className="projects-list">
           {projectsArr.map((project) => (

@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 :root {
   --background: #E8E5DA;
   --foreground: #304C89;
@@ -13,55 +13,77 @@
     --text-hover: #0B090A;
     --background: #FCF4ED; }
 }
-*{
 
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
   font-family: "inter", serif;
   font-weight: 400;
   font-style: normal;
 }
-
-
-body {
-  color: var(--text);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 html,
 body {
- 
   background-color: var(--background);
   max-width: 100vw;
   overflow-x: hidden;
+  color: var(--text);
+
 }
-
-
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+footer {
+  padding-right: 1%;
+  font-weight: 600;
+padding-top: 0px;
+  text-align: right;
+  margin-bottom: 15px;
+  width: 100%;
+position: relative;
+  img {
+      padding: 5px;
+      padding-top: 0px;
+      max-height: 32px;
+      margin-bottom: 0.1%;
+  }
 }
-
-
+a {
+  text-decoration: none;
+  color: tan;
+  }
+a:hover {
+    transition: 0.5s;
+    text-decoration: dashed;
+    color: coral;
+}
 
 .navbar {
-
   background-color:var(--background-alt);
   max-height: 100px;
   padding: 1%;
   padding-bottom: 0%;
 
 }
-
-.projects-list {
-padding: 1%;
-
-
+#landing-page {
+  margin-left: 1%;
+  font-family: "Josefin Sans", serif;
+  font-optical-sizing: auto;
+min-height: 550px;
 
 }
-.logoimg{ 
+#landing-page h1 {
+font-weight: 800;
+}
+#landing-title {
+  text-align: left;
+  font-size: 150px;
+  letter-spacing: 2px;
+}
 
+
+
+
+
+.logoimg{ 
   max-width: 100px;
 }
 .topbarlink {
@@ -80,55 +102,24 @@ text-decoration: underline;
 }
 
 
-
-
-footer {
-
-  padding-right: 1%;
-  font-weight: 600;
-padding-top: 0px;
-  text-align: right;
-  margin-bottom: 15px;
-  width: 100%;
-position: relative;
-  img {
-      padding: 5px;
-      padding-top: 0px;
-      max-height: 32px;
-      margin-bottom: 0.1%;
-  }
-}
-
-
-
-a {
-text-decoration: none;
-color: tan;
-}
-
 .page-title {
 font-weight: bold;
 font-size: xx-large;
 }
-
-.page-desc {
-
-}
-
-a:hover {
-  transition: 0.5s;
-  text-decoration: dashed;
-  color: coral;
-}
-
 #title-text {
 text-align: center;
 font-weight: bolder;
   font-size: x-small;
-  margin-bottom: -50px;
+  margin-bottom: -25px;
 }
 
+
+
+
+
+
 .projects-list {
+  padding: 1%;
   margin: 10%;
   margin-top: 5%;
   display: grid;
@@ -140,15 +131,14 @@ font-weight: bolder;
 .project-item {
   transition: 0.3s;
 padding: 5%;
-border-radius: 5px;
+border-radius: 1px;
   background-color: rgba(12, 12, 12, 0.1);
   text-align: center;
   text-align: left;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-
-  height: 315px;
+  height: 400px;
 max-width: fit-content;
-padding-bottom: 5%;
+
 }
 
 .project-item:hover {
@@ -163,26 +153,26 @@ padding-bottom: 5%;
     color:coral;
   }
 }
+
 .project-title {
   text-align: left;
   color: var(--text);
 font-weight: 800;
 }
-
-.project-desc {
-  
-  text-align: left;
-}
-
 .project-title:hover {
   color:coral;
 }
 
+.project-desc {
+  font-size: medium;
+  text-align: left;
+}
+
 .project-image {
-  max-height: 70%; 
+  max-height: 65%; 
   object-fit: contain; 
   margin: auto;
-  border-radius: 15px;
+  border-radius: 1px;
   display: block;
   margin-bottom: 2%;
 }
@@ -240,8 +230,6 @@ margin-top: 5%;
     box-sizing: border-box;
     overflow: hidden;
     text-align: center;
-
-    border-radius: 10px;
   }
   
   .project-image {
@@ -249,7 +237,6 @@ margin-top: 5%;
     height: auto;
     max-height: 300px;
     object-fit: cover;
-    border-radius: 15px;
   }
  
   #about-text {
@@ -270,6 +257,12 @@ margin-top: 5%;
              max-height: 350px;
             }
  
+
+            #landing-title {
+              text-align: left;
+              font-size: 150px;
+              letter-spacing: -5px;
+            }
 }
 
 @media all and (max-width: 700px) and (min-height: 400px) {
@@ -283,5 +276,13 @@ margin-top: 5%;
     gap: 15px;
   }
 
-
+  #landing-title {
+    font-size: 100px;
+  }
 }
+
+
+
+
+
+
