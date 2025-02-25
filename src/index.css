@@ -84,10 +84,73 @@ font-weight: 800;
   font-weight: bold;
 }
 #landing-canvas {
+  right: 0;
+  margin-left: 15%;
  height: 500px;
  width: 500px;
 }
 
+#carousel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 350px;
+  margin-right: 25%;
+  width: 300px;  /* Adjust width as needed */
+  height: 400px; /* Adjust height to fit the carousel's image */
+  z-index: 1000;
+  overflow: hidden;  /* Prevent overflow */
+}
+
+.project-carousel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.5s ease;  /* Smooth scrolling transition */
+}
+
+.carousel-item {
+  width: 100%;
+  flex-shrink: 0;  /* Prevent the items from shrinking */
+  display: none;  /* Hide all items by default */
+}
+
+.carousel-item.visible {
+  display: block;  /* Only show the visible item */
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-title, .carousel-desc {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.left-arrow, .right-arrow {
+  font-size: 30px;
+  color: black;  /* Arrow color */
+  cursor: pointer;
+  position: absolute;
+
+  /* Center the arrows vertically */
+  z-index: 10;
+}
+
+.left-arrow {
+  left: -40px;  /* Place the left arrow to the left of the carousel */
+}
+
+.right-arrow {
+  right: -40px;  /* Place the right arrow to the right of the carousel */
+}
+
+.carousel-item a {
+  text-decoration: none;
+  color: inherit;
+}
 
 
 

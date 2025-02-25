@@ -1,5 +1,3 @@
-import { filter } from "motion/react-client"
-
 const Footer = () => {
     return ( 
         <footer id="webfooter">  
