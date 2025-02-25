@@ -3,7 +3,7 @@
 :root {
   --background: #E8E5DA;
   --foreground: #304C89;
-  --topbar: #CDC392
+  --topbar: #CDC392;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -11,7 +11,7 @@
 
     --text: #2E282A;
     --text-hover: #0B090A;
-    --background: #FCF4ED; }
+    --background: #CCDDD3; }
 }
 
 
@@ -26,7 +26,10 @@
 html,
 body {
   background-color: var(--background);
+  background-image: linear-gradient();
+  background-blend-mode:color-burn;
   max-width: 100vw;
+
   overflow-x: hidden;
   color: var(--text);
 
@@ -63,11 +66,13 @@ a:hover {
   padding-bottom: 0%;
 
 }
+
+
 #landing-page {
   margin-left: 1%;
   font-family: "Josefin Sans", serif;
   font-optical-sizing: auto;
-min-height: 550px;
+
 
 }
 #landing-page h1 {
@@ -77,6 +82,11 @@ font-weight: 800;
   text-align: left;
   font-size: 150px;
   letter-spacing: 2px;
+}
+
+#landing-canvas {
+ height: 500px;
+ width: 500px;
 }
 
 

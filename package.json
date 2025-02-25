@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-three/drei": "^9.121.5",
     "@react-three/fiber": "^9.0.0-alpha.8",
     "cra-template": "1.2.0",
     "dotenv": "^16.4.7",
