@@ -6,7 +6,7 @@ const Projects = () => {
     <div className="container">
       <div className="projects-section">
         <div id="title-text">
-          <h1 className="page-title"> Projects </h1>
+          <h1 className="page-title"> Personal Projects </h1>
         </div>
         <div className="projects-list">
           {ProjectData.map((ProjectData) => (

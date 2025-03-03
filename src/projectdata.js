@@ -2,18 +2,18 @@
 
 export const ProjectData = [
     {
-      title: "ImageDaily",
+      title: "Image-Daily",
       description: "My daily image blog, showcasing a new image from my camera roll each day.",
-      image: './project/imgdaily.png',
+      image: './project/imgdaily.JPG',
       link: "https://nikolaiking.com/imagedaily/"
     },
-    {
-      title: "Ode to Sky World",
-      description: "A passion project of mine, A detailed history and archive of the Sky World entertainment centre",
-      image: "./project/skyworld.png",
-      link: "/skyworld",
-      long: "To me, auckland City doesnt provide much in terms of attractions, and the city can feel quite empty and lacking in character, to me Sky world is a large part of this, In one of the highest (foot) traffic parts of Auckland City rests a shell of an entertainment center, a building full of character and even more full of history."
-    },
+    // {
+    //   title: "Ode to Sky World",
+    //   description: "A passion project of mine, A detailed history and archive of the Sky World entertainment centre",
+    //   image: "./project/skyworld.png",
+    //   link: "/skyworld",
+    //   long: "To me, auckland City doesnt provide much in terms of attractions, and the city can feel quite empty and lacking in character, to me Sky world is a large part of this, In one of the highest (foot) traffic parts of Auckland City rests a shell of an entertainment center, a building full of character and even more full of history."
+    // },
     {
       title: "EcoVision Smart sorting bin",
       description: "An AI powered smart sorting bin, part of my year two works",
