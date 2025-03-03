@@ -3,17 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@react-three/drei": "^9.121.5",
-    "@react-three/fiber": "^9.0.0-alpha.8",
+    "@react-three/drei": "^8.20.2",
+    "@react-three/fiber": "^8.18.0",
     "cra-template": "1.2.0",
     "dotenv": "^16.4.7",
     "firebase": "^11.3.0",
     "motion": "^12.0.6",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "react-router-dom": "^7.1.5",
     "react-scripts": "^5.0.1",
-    "three": "^0.173.0"
+    "three": "^0.132.0"
   },
   "scripts": {
     "start": "react-scripts start",

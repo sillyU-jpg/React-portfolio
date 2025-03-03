@@ -1,6 +1,5 @@
 import { Canvas } from '@react-three/fiber'
 import { Suspense, useRef } from 'react'
-
 import { OrbitControls, useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
 
@@ -12,7 +11,6 @@ function Model({ path }) {
   useFrame((state, delta) => {
 
     ref.current.rotation.y += delta
-  let rotation_counter = ref.current.rotation.y;
   ref.current.position.y = Math.sin(state.clock.elapsedTime)/3
 
   })
