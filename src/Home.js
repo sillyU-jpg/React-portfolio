@@ -1,10 +1,8 @@
 import { Canvas } from '@react-three/fiber'
 import { Suspense, useRef } from 'react'
-import { useLoader } from '@react-three/fiber'
+
 import { OrbitControls, useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
-import Carousel from './Carousel'
-import { useState } from 'react'
 
 
 function Model({ path }) {
@@ -47,8 +45,7 @@ const Home = () => {
            </Canvas> 
              
 </div>
-    <Carousel>
-    </Carousel>
+
 </>
     )
 }

@@ -1,4 +1,3 @@
-import {useRef, useState } from "react";
 import { ProjectData } from "./projectdata";
 
 const Projects = () => {

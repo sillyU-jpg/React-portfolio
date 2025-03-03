@@ -1,9 +1,8 @@
 import Navbar from './Navbar';
-import Projects from './projects';
+import Projects from './Projects';
 import Footer from './Footer';
 import About from './About';
 import Home from './Home';
-import { ProjectData } from './projectdata';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
