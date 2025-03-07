@@ -27,9 +27,9 @@ const Projects = () => {
               <div key={project.title}>
                 <div className="project-item">
                   <img className="project-image" src={project.image} alt="" onClick={() => openModal(project)}/>
-                  <a className="btn-open" onClick={() => openModal(project)}>
+                  <p className="btn-open" onClick={() => openModal(project)}>  
                     <h2 className="project-title">{project.title}</h2>
-                  </a>
+                    </p>
                   <p className="project-desc">{project.description}</p>
                 </div>
               </div>
@@ -39,13 +39,13 @@ const Projects = () => {
             <div className="modal">
               <div className="modal-header">
                 <h1>{selectedProject.title}</h1>
-                <a className="btn-close" onClick={closeModal}>
+                <p className="btn-close" onClick={closeModal}>
                   &times;
-                </a>
+                </p>
                 </div>
                 <div className="modal-content">
                   <div className="modal-carousel">
-                <img src={selectedProject.altimg} className='modal-img' />
+                <img src={selectedProject.altimg} className='modal-img' alt="project" />
                 </div>
                 <div className="modal-text"> <h1>{selectedProject.title}</h1>
                 <p>{selectedProject.long}</p>
